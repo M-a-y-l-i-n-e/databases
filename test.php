@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root";
+$servername = "10.69.8.61";
+$username = "user";
+$password = "password";
 $dbname = "stage";
 
 
