@@ -10,6 +10,9 @@ if($conn->connect_error){
 	die("connection failed" . $conn->connect_error);
 }
 $sql = "INSERT INTO stagiaire (nom, prenom) VALUES (\"$_POST['nom']\",\"$_POST['prenom']\")";
+
+echo $sql;
+
 $conn->query($sql);
 $conn->close();
 ?>
